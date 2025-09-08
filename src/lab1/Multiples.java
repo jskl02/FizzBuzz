@@ -5,7 +5,7 @@ public class Multiples {
         System.out.println(multiples(1000,3,5));
     }
 
-     static int multiples(int n, int a, int b) {
+     public static int multiples(int n, int a, int b) {
         int i = 1;
         int count = 0;
         while (i < n){
@@ -17,7 +17,7 @@ public class Multiples {
         return count;
     }
 
-    static int multiples() {
+    public static int multiples() {
         int i = 1;
         int count = 0;
         while (i < 1000){
